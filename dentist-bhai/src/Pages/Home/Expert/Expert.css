@@ -1,0 +1,25 @@
+.expert {
+  height: 420px;
+  width: 290px;
+  border: 1px solid grey;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px;
+}
+.expert-details {
+  margin-left: 20px;
+}
+.expert-details img {
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.expert-details h5 {
+  text-align: center;
+}
+.expert-details p {
+  text-align: center;
+}
+.expert-details div {
+  margin-left: 50px;
+}

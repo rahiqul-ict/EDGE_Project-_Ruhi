@@ -1,0 +1,7 @@
+
+ @media only screen and (max-width:576px) {
+   .NotFound img{
+      height: 200px;
+      width: 100%;
+   }
+ }

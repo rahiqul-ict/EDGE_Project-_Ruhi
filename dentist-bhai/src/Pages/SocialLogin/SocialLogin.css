@@ -1,0 +1,16 @@
+.btns {
+  color: whitesmoke;
+  background-color: black;
+  border-radius: 10px;
+  /* margin-left: 500px; */
+  padding: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 15px;
+}
+@media only screen and (max-width: 576px) {
+  .btns {
+    width: 100%;
+    margin-left: 70px;
+  }
+}

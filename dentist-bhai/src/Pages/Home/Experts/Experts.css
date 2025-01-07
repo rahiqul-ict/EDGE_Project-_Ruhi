@@ -1,0 +1,16 @@
+.experts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .experts-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .Service-Text {
+    margin-top:-150px;
+  }
+}

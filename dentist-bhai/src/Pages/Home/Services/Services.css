@@ -1,0 +1,32 @@
+.Service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.Service-Text {
+  margin-top: 100px;
+}
+.services-text {
+  color: rgb(58, 201, 248);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 576px) {
+  .Service-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 70px;
+  }
+  .services-text {
+    color: rgb(58, 201, 248);
+    margin-left: 10px;
+    font-weight: 400;
+    /* margin-top: 100px; */
+  }
+
+  .Service-Text {
+    /* text-align: center; */
+  }
+}

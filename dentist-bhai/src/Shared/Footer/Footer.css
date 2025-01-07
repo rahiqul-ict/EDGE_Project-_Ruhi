@@ -1,0 +1,65 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: whitesmoke;
+  
+}
+.footer-image {
+  margin-left: 55px;
+}
+.footer-image div {
+  margin-left: 55px;
+}
+.footer-image div .github {
+  margin-left: -10px;
+}
+.button {
+  margin-top: 10px;
+  border: none;
+  width: 50%;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(58, 201, 248);
+}
+.button:hover {
+  color: white;
+  font-weight: 500;
+}
+.input {
+  width: 50%;
+  padding: 7px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid grey;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+  .support {
+    margin: 0;
+  }
+  .footer-image {
+    margin: 0;
+  }
+  .About-Doctor {
+    margin-left: 45px;
+  }
+  .newslatter {
+    margin-left: 43px;
+  }
+  .input {
+   width: 90%;
+   padding: 7px;
+   border-radius: 10px;
+   border: none;
+   border: 1px solid grey;
+ }
+ 
+}

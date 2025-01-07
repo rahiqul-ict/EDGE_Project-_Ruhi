@@ -1,0 +1,33 @@
+.About {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+}
+.About img {
+  margin-left: 100px;
+}
+.text-div {
+  margin-top: 20px;
+  margin-right: 180px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 576px) {
+  .About {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-div {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 280px;
+    text-align: justify;
+  }
+  .text-div h5 {
+    text-align: center;
+  }
+  .text-div h2 {
+    text-align: center;
+  }
+}

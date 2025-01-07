@@ -1,0 +1,32 @@
+.single-item {
+  height: 400px;
+  width: 300px;
+  border: 1px solid grey;
+  margin: auto;
+  border-radius: 20px;
+  padding: 15px;
+}
+.single-item div {
+  margin: 0 60px;
+  position: relative;
+}
+.btn {
+  color: black;
+  width: 100%;
+  position: absolute;
+  font-weight: 500;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(58, 201, 248);
+}
+.btn:hover {
+  color: white;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 576px) {
+  .btn {
+    /* margin-left: 0px; */
+  }
+}

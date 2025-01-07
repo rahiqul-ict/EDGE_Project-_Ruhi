@@ -1,0 +1,39 @@
+[
+   {
+      "id":1,
+      "name":"Root Canel",
+      "price":5000,
+      "img":"https://i.ibb.co/hMDXg7K/1.png",
+      "description":"Root canal treatment is a dental procedure that relieves pain caused by an infected or abscessed tooth."
+   },
+   {
+      "id":2,"name":" Alignment Teeth",
+      "price":10000,
+      "img":"https://i.ibb.co/vhCbVJG/2.png",
+      "description":"The teeth alignment is done by wearing a series of aligners, each for two weeks at a time."
+   }, 
+   {
+      "id":3,"name":"Cosmetic Teeth",
+      "price":2000,
+      "img":"https://i.ibb.co/PzqKcW5/3.png",
+      "description":"Common cosmetic dental services include teeth whitening,tooth and gum contouring."
+   }, 
+   {
+      "id":4,"name":"Oral Hygiene",
+      "price":1500,
+      "img":"https://i.ibb.co/JRv8KMS/4.png",
+      "description":"Oral hygiene is the practice of keeping your mouth clean and disease-free. It involves brushing and flossing your teeth."
+   }, 
+   {
+      "id":5,"name":"Live Advisory",
+      "price":"Free",
+      "img":"https://i.ibb.co/2MQQG5H/5.png",
+      "description":"Receive clear reports, chat transcripts and keep track of every new lead. Stand out in the eyes of your prospects."
+   }, 
+   {
+      "id":6,"name":"Cavity Inspection",
+      "price":7000,
+      "img":"https://i.ibb.co/3RSRxsS/6.png",
+      "description":"The cavities should be at least 2 inches wide. It is also important to know whether is in good condition."
+   }
+]
